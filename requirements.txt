@@ -4,3 +4,4 @@ streamlit
 Pillow
 langchain
 langchain-community
+InstructorEmbedding
