@@ -17,7 +17,8 @@ import textwrap
 import streamlit as st
 
 persist_directory = 'db'
-instructor_embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-base") 
+#instructor_embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-base") 
+instructor_embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl", model_kwargs={"device": "cuda"})
 embedding = instructor_embeddings
 tokenizer = AutoTokenizer.from_pretrained("lmsys/fastchat-t5-3b-v1.0")
 model = AutoModelForSeq2SeqLM.from_pretrained("lmsys/fastchat-t5-3b-v1.0")
