@@ -5,3 +5,4 @@ Pillow
 langchain
 langchain-community
 InstructorEmbedding
+sentence_transformers
