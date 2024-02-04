@@ -1,0 +1,9 @@
+transformers
+torch
+streamlit
+Pillow
+langchain
+langchain-community
+InstructorEmbedding
+sentence_transformers==2.2.2
+chromadb
