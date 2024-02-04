@@ -16,7 +16,7 @@ from langchain_community.vectorstores import Chroma
 import textwrap
 import streamlit as st
 
-persist_directory = 'db'
+persist_directory = 'https://github.com/suchinth08/lawllm/tree/f15f0f7444696bb5ce4a252d1c740a8f3314344d/db'
 instructor_embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-base") 
 embedding = instructor_embeddings
 #tokenizer = AutoTokenizer.from_pretrained("lmsys/fastchat-t5-3b-v1.0")
